@@ -1,8 +1,10 @@
 import java.util.Scanner; 
 public class afficheJoue 
-TEST GITHUT
+// TEST GITHUT
 //=====================AFFICHE JOUE CHANGE DE JOUEUR+++++++++++================================
 {
+	
+	
 	private static Scanner clavier = new Scanner(System.in);
 	private final static int VIDE  =  0;
 	private final static int JAUNE =  1;
