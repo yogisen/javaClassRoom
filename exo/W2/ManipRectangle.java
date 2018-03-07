@@ -11,4 +11,11 @@
 		}
 }
 	
-	//Supposons maintenant que nous souhaitions modifier les valeurs des attributs dans le programme principal:
+	/*Supposons maintenant que nous souhaitions modifier les valeurs des attributs dans le programme principal:
+	
+	Exception in thread "main" java.lang.Error: Unresolved compilation problems: 
+	The field Rectangle.largeur is not visible
+	The field Rectangle.longueur is not visible
+
+	at ManipRectangle.main(ManipRectangle.java:8)
+	*/
