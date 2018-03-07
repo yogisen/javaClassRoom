@@ -26,8 +26,9 @@ n'appartient à personne : il a été par exemple trouvé
 dans la salle de spectacle
 */
 // écrit sur un papier
-public void ecrire(Papier billet) {
-System.out.println("[Spectateur] (j'écris le papier)");
-billet.ecrire(age, argent);
+	
+		public void ecrire(Papier billet) {
+			System.out.println("[Spectateur] (j'écris le papier)");
+			billet.ecrire(age, argent);
 }
 }
