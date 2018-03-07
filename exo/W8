@@ -1,1 +1,19 @@
 
+2.2 Buts du programme
+On souhaite ici écrire un programme « simulant » le tour de magie élémentaire suivant :
+Un magicien demande à un spectateur d'écrire sur un papier son âge et la somme qu'il a en poche (moins de 100 francs suisses).
+L'assistant doit ensuite le lire (sans rien dire), puis effectuer secrètement le calcul suivant : multiplier l'âge par 2, lui ajouter 5, multiplier
+le résultat par 50, ajouter la somme en poche, et soustraire le nombre de jours que contient une année, puis finalement donner le
+résultat à haute voix.
+En ajoutant mentalement (rapidement !) 115 au chiffre reçu, le magicien trouve tout de suite l'âge et la somme en poche (qui étaient
+restés secrets).
+Modéliser ce tour de magie, en définissant au moins les classes (simples) Magicien, Assistant et Spectateur. Il pourrait également
+être utile de disposer d'une classe Papier.
+L'instance de Spectateur devra demander son âge à l'utilisateur du programme ainsi que la somme d'argent en poche, et s'assurer
+qu'une valeur correcte est entrée (entre 0 et 99).
+Essayer de faire une modélisation la plus exacte possible ; faire notamment usage des droits d'accès là où cela semble pertinent. Pour
+chaque méthode, effectuer un affichage à l'écran de l'opération en cours et de l'acteur qui la réalise.
+Note :
+Il existe de nombreuses variantes possibles. Commencer par un modèle très simple, et le faire évoluer pour se rapprocher de la
+situation « réelle » décrite.
+Rappel : pour pouvoir lire une donnée depuis le clavier, il faut avoir au préalable déclaré une variable de type Scanner :
